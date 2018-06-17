@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Nav from '../components/Nav';
-import Experience from '../components/Experience';
+import Experience from '../components/Agenda';
 import Education from '../components/Education';
 import Skills from '../components/Skills';
 import Interests from '../components/Interests';
