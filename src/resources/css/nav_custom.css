@@ -1,0 +1,42 @@
+/*General*/
+.colorRed{
+    color: #a41819 !important;
+}
+.colorBlack{
+    color: rgb(1, 1, 3) !important;
+}
+
+/*End General*/
+
+
+/* Nav Bar */
+.bg-primary {
+    background-color: #a41819 !important;
+}
+
+.logoStyle {
+    max-width: 10rem !important;
+    max-height: 10rem !important;
+    border: 0.5rem solid rgb(1, 1, 3) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+        color: rgb(255, 255, 255);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(17, 15, 16);
+    font-weight: bold !important;
+}
+
+/* End Nav Bar*/
+
+/*About*/
+.list-social-icons a:hover {
+    color: #a41819;
+}
+.list-social-icons a {
+    color: #010103;
+}
+
+/*End About*/

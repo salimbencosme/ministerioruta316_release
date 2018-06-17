@@ -6,6 +6,7 @@ import './resources/vendor/font-awesome/css/font-awesome.min.css';
 import './resources/vendor/devicons/css/devicons.min.css';
 import './resources/vendor/simple-line-icons/css/simple-line-icons.css';
 import './resources/css/resume.css';
+import './resources/css/nav_custom.css';
 
 class App extends Component {
   render() {
