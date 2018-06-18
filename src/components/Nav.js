@@ -31,7 +31,7 @@ class Nav extends  Component{
                             <a className="nav-link js-scroll-trigger" href="#members">Miembros</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                            <a className="nav-link js-scroll-trigger" href="#drama">Dramas</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link js-scroll-trigger" href="#interests">Interests</a>
