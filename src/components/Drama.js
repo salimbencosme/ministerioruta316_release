@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import pablo from '../resources/img/dramas/pablo.jpg';
 
 class Drama extends Component{
 
@@ -23,30 +24,26 @@ class Drama extends Component{
                         <div className="movie-content">
                             <div className="movie-content-header">
                                 <a href="#">
-                                    <h3 className="movie-title">Man of Steel</h3>
+                                    <h3 className="movie-title">Pablo el Emisario</h3>
                                 </a>
-                                <div className="imax-logo"></div>
+
                             </div>
                             <div className="movie-info">
                                 <div className="info-section">
-                                    <label>Date & Time</label>
-                                    <span>Sun 8 Sept - 10:00PM</span>
+                                    <label>Tiempo</label>
+                                    <span>45 min</span>
                                 </div>
 
                                 <div className="info-section">
-                                    <label>Screen</label>
-                                    <span>03</span>
+                                    <label>Cantidad de actores</label>
+                                    <span>30 personas</span>
                                 </div>
 
                                 <div className="info-section">
-                                    <label>Row</label>
-                                    <span>F</span>
+                                    <label>Referencias</label>
+                                    <span>Libro de Hechos</span>
                                 </div>
 
-                                <div className="info-section">
-                                    <label>Seat</label>
-                                    <span>21,22</span>
-                                </div>
 
                             </div>
                         </div>
@@ -55,7 +52,7 @@ class Drama extends Component{
 
 
                     <div className="movie-card">
-                        <div className="movie-header babyDriver">
+                        <div className="movie-header manOfSteel">
                             <div className="header-icon-container">
                                 <a href="#">
                                     <i className="fa fa-play header-icon"></i>
@@ -66,30 +63,26 @@ class Drama extends Component{
                         <div className="movie-content">
                             <div className="movie-content-header">
                                 <a href="#">
-                                    <h3 className="movie-title">Baby Driver</h3>
+                                    <h3 className="movie-title">Pablo el Emisario</h3>
                                 </a>
-                                <div className="imax-logo"></div>
+
                             </div>
                             <div className="movie-info">
                                 <div className="info-section">
-                                    <label>Date & Time</label>
-                                    <span>Tue 4 July - 05:00PM</span>
+                                    <label>Tiempo</label>
+                                    <span>45 min</span>
                                 </div>
 
                                 <div className="info-section">
-                                    <label>Screen</label>
-                                    <span>01</span>
+                                    <label>Cantidad de actores</label>
+                                    <span>30 personas</span>
                                 </div>
 
                                 <div className="info-section">
-                                    <label>Row</label>
-                                    <span>H</span>
+                                    <label>Referencias</label>
+                                    <span>Libro de Hechos</span>
                                 </div>
 
-                                <div className="info-section">
-                                    <label>Seat</label>
-                                    <span>15</span>
-                                </div>
 
                             </div>
                         </div>
@@ -98,7 +91,7 @@ class Drama extends Component{
 
 
                     <div className="movie-card">
-                        <div className="movie-header theDarkTower">
+                        <div className="movie-header manOfSteel">
                             <div className="header-icon-container">
                                 <a href="#">
                                     <i className="fa fa-play header-icon"></i>
@@ -109,30 +102,26 @@ class Drama extends Component{
                         <div className="movie-content">
                             <div className="movie-content-header">
                                 <a href="#">
-                                    <h3 className="movie-title">The Dark Tower</h3>
+                                    <h3 className="movie-title">Pablo el Emisario</h3>
                                 </a>
-                                <div className="imax-logo"></div>
+
                             </div>
                             <div className="movie-info">
                                 <div className="info-section">
-                                    <label>Date & Time</label>
-                                    <span>Wed 16 Aug - 07:00PM</span>
+                                    <label>Tiempo</label>
+                                    <span>45 min</span>
                                 </div>
 
                                 <div className="info-section">
-                                    <label>Screen</label>
-                                    <span>06</span>
+                                    <label>Cantidad de actores</label>
+                                    <span>30 personas</span>
                                 </div>
 
                                 <div className="info-section">
-                                    <label>Row</label>
-                                    <span>C</span>
+                                    <label>Referencias</label>
+                                    <span>Libro de Hechos</span>
                                 </div>
 
-                                <div className="info-section">
-                                    <label>Seat</label>
-                                    <span>18</span>
-                                </div>
 
                             </div>
                         </div>
@@ -141,7 +130,7 @@ class Drama extends Component{
 
                     <h3 className="mb-0">Musicales</h3>
                     <div className="movie-card">
-                        <div className="movie-header bladeRunner2049">
+                        <div className="movie-header manOfSteel">
                             <div className="header-icon-container">
                                 <a href="#">
                                     <i className="fa fa-play header-icon"></i>
@@ -152,30 +141,26 @@ class Drama extends Component{
                         <div className="movie-content">
                             <div className="movie-content-header">
                                 <a href="#">
-                                    <h3 className="movie-title">Blade Runner 2049</h3>
+                                    <h3 className="movie-title">Pablo el Emisario</h3>
                                 </a>
-                                <div className="imax-logo"></div>
+
                             </div>
                             <div className="movie-info">
                                 <div className="info-section">
-                                    <label>Date & Time</label>
-                                    <span>Mon 16 Oct - 10:00PM</span>
+                                    <label>Tiempo</label>
+                                    <span>45 min</span>
                                 </div>
 
                                 <div className="info-section">
-                                    <label>Screen</label>
-                                    <span>06</span>
+                                    <label>Cantidad de actores</label>
+                                    <span>30 personas</span>
                                 </div>
 
                                 <div className="info-section">
-                                    <label>Row</label>
-                                    <span>D</span>
+                                    <label>Referencias</label>
+                                    <span>Libro de Hechos</span>
                                 </div>
 
-                                <div className="info-section">
-                                    <label>Seat</label>
-                                    <span>05,06</span>
-                                </div>
 
                             </div>
                         </div>
@@ -185,7 +170,7 @@ class Drama extends Component{
 
                     <h3 className="mb-0">Openings</h3>
                     <div className="movie-card">
-                        <div className="movie-header bladeRunner2049">
+                        <div className="movie-header manOfSteel">
                             <div className="header-icon-container">
                                 <a href="#">
                                     <i className="fa fa-play header-icon"></i>
@@ -196,36 +181,34 @@ class Drama extends Component{
                         <div className="movie-content">
                             <div className="movie-content-header">
                                 <a href="#">
-                                    <h3 className="movie-title">Blade Runner 2049</h3>
+                                    <h3 className="movie-title">Pablo el Emisario</h3>
                                 </a>
-                                <div className="imax-logo"></div>
+
                             </div>
                             <div className="movie-info">
                                 <div className="info-section">
-                                    <label>Date & Time</label>
-                                    <span>Mon 16 Oct - 10:00PM</span>
+                                    <label>Tiempo</label>
+                                    <span>45 min</span>
                                 </div>
 
                                 <div className="info-section">
-                                    <label>Screen</label>
-                                    <span>06</span>
+                                    <label>Cantidad de actores</label>
+                                    <span>30 personas</span>
                                 </div>
 
                                 <div className="info-section">
-                                    <label>Row</label>
-                                    <span>D</span>
+                                    <label>Referencias</label>
+                                    <span>Libro de Hechos</span>
                                 </div>
 
-                                <div className="info-section">
-                                    <label>Seat</label>
-                                    <span>05,06</span>
-                                </div>
 
                             </div>
                         </div>
 
                     </div>
-                </div>
+
+                    </div>
+             
             </section>
 
         );
