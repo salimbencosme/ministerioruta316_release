@@ -9,43 +9,43 @@ class Subscribe extends Component{
             <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="subscribe">
                 <div className="my-auto">
                     <h2 className="mb-5">Suscribirse</h2>
-                    <ul className="fa-ul mb-0">
-                        <li>
-                            <i className="fa-li fa fa-trophy text-warning"></i>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <i className="fa-li fa fa-trophy text-warning"></i>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <i className="fa-li fa fa-trophy text-warning"></i>
-                            1<sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <i className="fa-li fa fa-trophy text-warning"></i>
-                            1<sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <i className="fa-li fa fa-trophy text-warning"></i>
-                            2<sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
 
-                            <li>
-                                <i className="fa-li fa fa-trophy text-warning"></i>
-                                1<sup>st</sup>
-                                Place - James Buchanan High School - Hackathon 2006
-                            </li>
-                            <li>
-                                <i className="fa-li fa fa-trophy text-warning"></i>
-                                3<sup>rd</sup>
-                                Place - James Buchanan High School - Hackathon 2005
-                            </li>
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="well well-sm">
+                                <form>
+                                    <div className="row">
+                                        <div className="col-md-12">
 
-                    </ul>
+                                            <div className="form-group">
+                                                <label htmlFor="email">
+                                                    Correo electrónico</label>
+                                                <div className="input-group">
+                                <span className="input-group-addon custom-email-subscribe"><span
+                                    className="fa fa-envelope colorWhite"></span>
+                                </span>
+                                                    <input type="email" className="form-control" id="email"
+                                                           placeholder="Escriba su correo electrónico"
+                                                           required="required"/></div>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="col-md-12">
+                                            <button type="submit" className="btn btn-primary pull-right"
+                                                    id="btnContactUs">
+                                                Suscribirme
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
                 </div>
             </section>
 

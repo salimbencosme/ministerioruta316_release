@@ -9,43 +9,47 @@ class MailBox extends Component{
             <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="mailbox">
                 <div className="my-auto">
                     <h2 className="mb-5">Buzon</h2>
-                    <ul className="fa-ul mb-0">
-                        <li>
-                            <i className="fa-li fa fa-trophy text-warning"></i>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <i className="fa-li fa fa-trophy text-warning"></i>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <i className="fa-li fa fa-trophy text-warning"></i>
-                            1<sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <i className="fa-li fa fa-trophy text-warning"></i>
-                            1<sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <i className="fa-li fa fa-trophy text-warning"></i>
-                            2<sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="well well-sm">
+                                <form>
+                                    <div className="row">
+                                        <div className="col-md-12">
 
-                            <li>
-                                <i className="fa-li fa fa-trophy text-warning"></i>
-                                1<sup>st</sup>
-                                Place - James Buchanan High School - Hackathon 2006
-                            </li>
-                            <li>
-                                <i className="fa-li fa fa-trophy text-warning"></i>
-                                3<sup>rd</sup>
-                                Place - James Buchanan High School - Hackathon 2005
-                            </li>
+                                            <div className="form-group">
+                                                <label htmlFor="subject">
+                                                    Subject</label>
+                                                <select id="subject" name="subject" className="form-control"
+                                                        required="required">
+                                                    <option value="na" selected="">Seleccione una de las opciones</option>
+                                                    <option value="service">Felicitaciones</option>
+                                                    <option value="suggestions">Quejas</option>
+                                                    <option value="product">Sugerencia</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-12">
+                                            <div className="form-group">
+                                                <label htmlFor="name">
+                                                    Mensaje</label>
+                                                <textarea name="message" id="message" className="form-control" rows="9"
+                                                          cols="25" required="required"
+                                                          placeholder="Mensaje"></textarea>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-12">
+                                            <button type="submit" className="btn btn-primary pull-right"
+                                                    id="btnContactUs">
+                                                Enviar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
 
-                    </ul>
+                    </div>
+
                 </div>
             </section>
 
