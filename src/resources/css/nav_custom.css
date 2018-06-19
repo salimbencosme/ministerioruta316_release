@@ -35,7 +35,7 @@
 
 /* End Nav Bar*/
 
-/*About*/
+/*Home*/
 .list-social-icons a:hover {
     color: #a41819;
 }
@@ -43,7 +43,7 @@
     color: #010103;
 }
 
-/*End About*/
+/*End Home*/
 
 
 /*Agenda*/
@@ -619,3 +619,9 @@ a:hover {
 }
 
 /*End Drama*/
+
+
+
+/*About*/
+
+/*End About*/

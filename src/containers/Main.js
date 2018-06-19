@@ -3,9 +3,12 @@ import Nav from '../components/Nav';
 import Experience from '../components/Agenda';
 import Education from '../components/Members';
 import Drama from '../components/Drama';
-import Interests from '../components/Interests';
-import Awards from '../components/Awards';
-import About from "../components/About";
+import Interests from '../components/About';
+import Awards from '../components/MailBox';
+import About from "../components/Home";
+import Contact from "../components/Contact";
+import Subscribe from "../components/Subscribe";
+import MailBox from "../components/MailBox";
 
 
 class Main extends Component{
@@ -22,6 +25,9 @@ class Main extends Component{
                     <Drama/>
                     <Interests/>
                     <Awards/>
+                    <MailBox/>
+                    <Contact/>
+                    <Subscribe/>
                 </div>
             </div>
 

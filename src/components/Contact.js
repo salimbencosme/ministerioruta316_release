@@ -1,14 +1,14 @@
 import React, {Component} from 'react'
 
-class Awards extends Component{
+class Contact extends Component{
 
     render(){
 
         return(
 
-            <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+            <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
                 <div className="my-auto">
-                    <h2 className="mb-5">Awards &amp; Certifications</h2>
+                    <h2 className="mb-5">Contact</h2>
                     <ul className="fa-ul mb-0">
                         <li>
                             <i className="fa-li fa fa-trophy text-warning"></i>
@@ -57,4 +57,4 @@ class Awards extends Component{
 
 }
 
-export default Awards;
+export default Contact;

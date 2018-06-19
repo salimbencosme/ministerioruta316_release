@@ -5,48 +5,41 @@ class About extends Component{
     render(){
 
         return(
-
-            <section className="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+/*http://www.bestjquery.com/lab/timeline/page/3/*/
+            <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="about">
                 <div className="my-auto">
-                    <h1 className="mb-0 colorBlack">Ministerio
-                        <span className="text-primary colorRed"> Ruta </span>
-                        <span className="text-primary colorBlack">3:16</span>
-                    </h1>
-                    <div className="subheading mb-5">Santo Domingo, República Dominicana · (829) 718-2922 ·
-                        <a href="mailto:ministerioruta316@email.com"> ministerioruta316@gmail.com</a>
+                    <h2 className="mb-5">Nosotros</h2>
+
+                    <div className="container">
+                        <div className="row">
+                            <div className="main-timeline">
+                                <div className="col-md-2 col-sm-6 timeline">
+                                    <div className="timeline-icon"><i className="fa fa-globe"></i></div>
+                                    <span className="year">2012</span>
+                                    <div className="timeline-content">
+                                        <div className="post">Web Desginer</div>
+                                        <p className="description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget ullamcorper odio. Phasellus congue varius placerat. Quisque vel purus convallis.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div className="col-md-2 col-sm-6 timeline">
+                                    <div className="timeline-icon"><i className="fa fa-rocket"></i></div>
+                                    <span className="year">2013</span>
+                                    <div className="timeline-content">
+                                        <div className="post">Web Developer</div>
+                                        <p className="description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget ullamcorper odio. Phasellus congue varius placerat. Quisque vel purus convallis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <p className="mb-5">Es un ministerio adventista de dramas de tipo fonomímicas. Teniendo como parte de nuestro nombre el texto bien conocido de <strong>San Juan 3:16.</strong> El sacrificio de Cristo por todos nosotros nos motiva a llevar este mensaje a todo el mundo.</p>
-                    <ul className="list-inline list-social-icons mb-0">
-                        <li className="list-inline-item">
-                            <a href="https://www.facebook.com/MinisterioRuta316/" target="_blank">
-                <span className="fa-stack fa-lg">
-                  <i className="fa fa-circle fa-stack-2x"></i>
-                  <i className="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                </span>
-                            </a>
-                        </li>
 
-                        <li className="list-inline-item">
-                            <a href="https://www.instagram.com/ministerioruta316/" target="_blank">
-                <span className="fa-stack fa-lg">
-                  <i className="fa fa-circle fa-stack-2x"></i>
-                  <i className="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                </span>
-                            </a>
-                        </li>
-                        <li className="list-inline-item">
-                            <a href="https://www.youtube.com/results?search_query=minsterio+ruta+3%3A16" target="_blank">
-                <span className="fa-stack fa-lg">
-                  <i className="fa fa-circle fa-stack-2x"></i>
-                  <i className="fa fa-youtube-play fa-stack-1x fa-inverse"></i>
-                </span>
-                            </a>
-                        </li>
-
-                    </ul>
                 </div>
             </section>
-
 
         );
 

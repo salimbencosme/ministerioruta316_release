@@ -22,6 +22,9 @@ class Nav extends  Component{
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav">
                         <li className="nav-item">
+                            <a className="nav-link js-scroll-trigger" href="#home">Inicio</a>
+                        </li>
+                        <li className="nav-item">
                             <a className="nav-link js-scroll-trigger" href="#about">Nosotros</a>
                         </li>
                         <li className="nav-item">
@@ -34,10 +37,13 @@ class Nav extends  Component{
                             <a className="nav-link js-scroll-trigger" href="#drama">Dramas</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link js-scroll-trigger" href="#interests">Interests</a>
+                        <a className="nav-link js-scroll-trigger" href="#mailbox">Buzon</a>
+                    </li>
+                        <li className="nav-item">
+                            <a className="nav-link js-scroll-trigger" href="#contact">Contacto</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link js-scroll-trigger" href="#awards">Awards</a>
+                            <a className="nav-link js-scroll-trigger" href="#subscribe">Suscribirse</a>
                         </li>
                     </ul>
                 </div>
