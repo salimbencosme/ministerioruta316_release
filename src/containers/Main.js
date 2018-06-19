@@ -3,9 +3,8 @@ import Nav from '../components/Nav';
 import Experience from '../components/Agenda';
 import Education from '../components/Members';
 import Drama from '../components/Drama';
-import Interests from '../components/About';
-import Awards from '../components/MailBox';
-import About from "../components/Home";
+import About from '../components/About';
+import Home from "../components/Home";
 import Contact from "../components/Contact";
 import Subscribe from "../components/Subscribe";
 import MailBox from "../components/MailBox";
@@ -19,12 +18,11 @@ class Main extends Component{
             <div  id="page-top">
                 <Nav />
                 <div className="container-fluid p-0">
+                    <Home/>
                     <About/>
                     <Experience/>
                     <Education/>
                     <Drama/>
-                    <Interests/>
-                    <Awards/>
                     <MailBox/>
                     <Contact/>
                     <Subscribe/>

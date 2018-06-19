@@ -623,5 +623,20 @@ a:hover {
 
 
 /*About*/
+.card-body-custom {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background-color: #a41819;
+}
 
+
+.custom-header-color{
+    color: #010103 !important;
+    font-size: 1.3em !important;
+}
+
+.custom-margin{
+    margin-bottom: 3% !important;
+}
 /*End About*/
